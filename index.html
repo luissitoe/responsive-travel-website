@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <!--=================== FontShare ====================-->
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap" rel="stylesheet">
+    <!--=================== Remixicon ====================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=================== Main css ====================-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+    <!--===================== header =========================-->
+    <header id="header" class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__brand">Travel</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link nav__link--active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#how" class="nav__link">How It Works</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#explore" class="nav__link">Explore</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#reservation" class="nav__link">Reservations</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#blog" class="nav__link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <span class="nav__toggle">
+                <i id="nav-toggle" class="ri-menu-line"></i>
+            </span>
+        </nav>
+    </header>
+
+    <!--===================== main =========================-->
+    <main class="main">
+
+        <!--===================== home =========================-->
+        <section id="home" class="home">
+            <video src="assets/video/background.mp4" class="video__background" id="video-background"></video>
+            <div class="video__overlay"></div>
+            <div class="home__wrapper d-grid container">
+                <div class="home__content">
+                    <h1 class="home__title">Adventure Awaits</h1>
+                    <p class="home__description">Amet dui blandit in pretium porttitor urna facilisi libero. Amet semper
+                        venenatis est eget et. Cras consequat augue
+                        etiam quam fermentum morbi tempor tortor gravida. Semper malesuada pellentesque fermentum mauris
+                        malesuada ut.</p>
+                    <div class="home__buttons">
+                        <a href="#" class="btn btn--primary">Get Started</a>
+                        <button class="video__btn" id="video-btn">
+                            <i id="video-icon" class="ri-play-fill"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===================== how =========================-->
+        <section id="how" class="how section">
+            <div class="section__header">
+                <h2 class="section__title">See How It Works</h2>
+                <p class="section__description">Cursus nisi vitae id pulvinar. Massa ut mauris quam suspendisse
+                    consectetur sagittis nulla phasellus leo. Suspendisse
+                    mauris facilisi aliquet duis vitae</p>
+            </div>
+            <div class="how__wrapper d-grid container">
+                <!--================ how item 1 =================-->
+                <div class="how__item">
+                    <div class="how__icon">
+                        <i class="ri-map-pin-2-fill"></i>
+                    </div>
+                    <h3 class="how__title">Select a Destination</h3>
+                    <p class="how__description">At first choose a place you want to go</p>
+                </div>
+                <!--================ how item 2 =================-->
+                <div class="how__item">
+                    <div class="how__icon">
+                        <i class="ri-ticket-fill"></i>
+                    </div>
+                    <h3 class="how__title">Book a Trip</h3>
+                    <p class="how__description">Book your trip from our exclusive offers</p>
+                </div>
+                <!--================ how item 3 =================-->
+                <div class="how__item">
+                    <div class="how__icon">
+                        <i class="ri-flight-takeoff-fill"></i>
+                    </div>
+                    <h3 class="how__title">Take your flight</h3>
+                    <p class="how__description">Take your flight and enjoy your adventure</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===================== explore =========================-->
+        <section id="explore" class="explore section">
+            <div class="section__header">
+                <h2 class="section__title">Explore The World</h2>
+                <p class="section__description">Cursus nisi vitae id pulvinar. Massa ut mauris quam suspendisse
+                    consectetur sagittis nulla phasellus leo. Suspendisse
+                    mauris facilisi aliquet duis vitae</p>
+            </div>
+            <div class="explore__wrapper d-grid container">
+                <!--============= explore item 1 ============-->
+                <div class="explore__item">
+                    <div class="explore__img-wrapper">
+                        <img src="assets/img/explore1.jpg" alt="Grindelwald, Switzerland" class="explore__img">
+                    </div>
+                    <h3 class="explore__name">Grindelwald</h3>
+                    <p class="explore__country">Switzerland</p>
+                </div>
+                <!--============= explore item 2 ============-->
+                <div class="explore__item">
+                    <div class="explore__img-wrapper">
+                        <img src="assets/img/explore2.jpg" alt="Antelope Canyon,United States" class="explore__img">
+                    </div>
+                    <h3 class="explore__name">Antelope Canyon</h3>
+                    <p class="explore__country">United States</p>
+                </div>
+                <!--============= explore item 3 ============-->
+                <div class="explore__item">
+                    <div class="explore__img-wrapper">
+                        <img src="assets/img/explore3.jpg" alt="Cappadocia, Turkey" class="explore__img">
+                    </div>
+                    <h3 class="explore__name">Cappadocia</h3>
+                    <p class="explore__country">Turkey</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===================== reservations =========================-->
+        <section id="reservation" class="reservation section">
+            <div class="section__header">
+                <h2 class="section__title">Reservations</h2>
+                <p class="section__description">Cursus nisi vitae id pulvinar. Massa ut mauris quam suspendisse
+                    consectetur sagittis nulla phasellus leo. Suspendisse
+                    mauris facilisi aliquet duis vitae</p>
+            </div>
+            <div class="reservation__wrapper d-grid container">
+                <!--================= reservation item 1 =================-->
+                <div class="reservation__item">
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Grindelwald</h3>
+                        <p class="reservation__description">Switzerland</p>
+                    </div>
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Tours Available</h3>
+                        <p class="reservation__description">10 tours</p>
+                    </div>
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Duration</h3>
+                        <p class="reservation__description">8 hours</p>
+                    </div>
+                    <div class="reservation__data">
+                        <a href="#" class="btn btn--primary">Book Now</a>
+                    </div>
+                </div>
+                <!--================= reservation item 2 =================-->
+                <div class="reservation__item">
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Antelope Canyon</h3>
+                        <p class="reservation__description">United States</p>
+                    </div>
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Tours Available</h3>
+                        <p class="reservation__description">8 tours</p>
+                    </div>
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Duration</h3>
+                        <p class="reservation__description">12 hours</p>
+                    </div>
+                    <div class="reservation__data">
+                        <a href="#" class="btn btn--primary">Book Now</a>
+                    </div>
+                </div>
+                <!--================= reservation item 3 =================-->
+                <div class="reservation__item">
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Cappadocia</h3>
+                        <p class="reservation__description">Turkey</p>
+                    </div>
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Tours Available</h3>
+                        <p class="reservation__description">5 tours</p>
+                    </div>
+                    <div class="reservation__data">
+                        <h3 class="reservation__title">Duration</h3>
+                        <p class="reservation__description">10 hours</p>
+                    </div>
+                    <div class="reservation__data">
+                        <a href="#" class="btn btn--primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===================== blog =========================-->
+        <section id="blog" class="blog section">
+            <div class="section__header">
+                <h2 class="section__title">Blog</h2>
+                <p class="section__description">Cursus nisi vitae id pulvinar. Massa ut mauris quam suspendisse
+                    consectetur sagittis nulla phasellus leo. Suspendisse
+                    mauris facilisi aliquet duis vitae</p>
+            </div>
+            <div class="blog__wrapper d-grid container">
+                <!--================= blog item 1 ==================-->
+                <div class="blog__item">
+                    <img src="assets/img/blog1.jpg" alt="" class="blog__img">
+                    <p class="blog__date">July 20, 2023</p>
+                    <h3 class="blog__title">Best Holydays ever</h3>
+                    <p class="blog__description">Lacus semper a eget pretium. At aliquet vel tincidunt augue sagittis
+                        nulla. Mi mattis diam odio elementum purus quis
+                        non. Molestie a quis aliquet elementum amet suspendisse.</p>
+                    <a href="#" class="blog__link">Read More
+                    </a>
+                </div>
+                <!--================= blog item 2 ==================-->
+                <div class="blog__item">
+                    <img src="assets/img/blog2.jpg" alt="" class="blog__img">
+                    <p class="blog__date">August 05, 2023</p>
+                    <h3 class="blog__title">An Amazing Experience</h3>
+                    <p class="blog__description">Lacus semper a eget pretium. At aliquet vel tincidunt augue sagittis
+                        nulla. Mi mattis diam odio elementum purus quis
+                        non. Molestie a quis aliquet elementum amet suspendisse.</p>
+                    <a href="#" class="blog__link">Read More
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--===================== testimonial =========================-->
+        <section class="testimonial section">
+            <div class="section__header">
+                <h2 class="section__title">Clients Review</h2>
+                <p class="section__description">Cursus nisi vitae id pulvinar. Massa ut mauris quam suspendisse
+                    consectetur sagittis nulla phasellus leo. Suspendisse
+                    mauris facilisi aliquet duis vitae</p>
+            </div>
+            <div class="testimonial__wrapper d-grid container">
+                <!--================== testimonial item 1 =================-->
+                <div class="testimonial__item">
+                    <img src="assets/img/testimonial1.jpg" alt="Lina Morillo" class="testimonial__img">
+                    <h3 class="testimonial__name">Lina Morillo</h3>
+                    <p class="testimonial__quote">"Rerum accusamus saepe iste nesciunt animi ea quas veritatis maiores
+                        et, dolorum
+                        tempore at voluptatem voluptatibus nam magnam tempora. Nisi, dolorem facere."
+                    </p>
+                </div>
+                <!--================== testimonial item 2 =================-->
+                <div class="testimonial__item">
+                    <img src="assets/img/testimonial2.jpg" alt="Lucas Rocha" class="testimonial__img">
+                    <h3 class="testimonial__name">Lucas Rocha</h3>
+                    <p class="testimonial__quote">"Rerum accusamus saepe iste nesciunt animi ea quas veritatis maiores
+                        et, dolorum
+                        tempore at voluptatem voluptatibus nam magnam tempora. Nisi, dolorem facere."
+                    </p>
+                </div>
+                <!--================== testimonial item 3 =================-->
+                <div class="testimonial__item">
+                    <img src="assets/img/testimonial3.jpg" alt="Julia Cooper" class="testimonial__img">
+                    <h3 class="testimonial__name">Julia Cooper</h3>
+                    <p class="testimonial__quote">"Rerum accusamus saepe iste nesciunt animi ea quas veritatis maiores
+                        et, dolorum
+                        tempore at voluptatem voluptatibus nam magnam tempora. Nisi, dolorem facere."
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===================== footer =========================-->
+    <footer class="footer">
+        <div class="footer__wrapper d-grid container">
+            <div class="footer__item">
+                <h3 class="footer__title">Travel</h3>
+                <p class="footer__description">Fermentum proin mauris donec nullam vehicula. Diam risus egestas nulla
+                    tincidunt et viverra nunc aliquet. Turpis
+                    vestibulum magna mauris accumsan gravida dictumst.</p>
+            </div>
+            <div class="footer__item">
+                <h4 class="footer__title">About Us</h4>
+                <ul class="footer__list">
+                    <a href="" class="footer__link">About</a>
+                    <a href="" class="footer__link">Careers</a>
+                    <a href="" class="footer__link">Blog</a>
+                    <a href="" class="footer__link">Terms and Privacy</a>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <h4 class="footer__title">Contact Us</h4>
+                <ul class="footer__list">
+                    <a href="" class="footer__link">Contact</a>
+                    <a href="" class="footer__link">Support</a>
+                    <a href="" class="footer__link">Partners</a>
+                    <a href="" class="footer__link">Sponsorships</a>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <h3 class="footer__title">Newsletter</h3>
+                <p class="footer__description">Join our newsletter to receive our best tour deals</p>
+                <form action="" class="footer__form">
+                    <input type="email" class="form__input" placeholder="Enter Your Email">
+                    <button class="btn btn--primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <p class="footer__copyright container">
+            &copy; Copyright 2023 Designed by Luís
+        </p>
+    </footer>
+
+    <!--===================== scrolltop =========================-->
+    <a href="#" class="scrolltop" id="scrolltop">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!--=================== ScrollReveal ====================-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--=================== Main js ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
